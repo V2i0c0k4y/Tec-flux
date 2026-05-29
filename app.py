@@ -32,7 +32,7 @@ y_test = y_scaled[train_size:]
 
 # Load or train the model
 try:
-    lstm_model = load_model('tec_lstm_model(3).h5')
+    lstm_model = load_model('tec_lstm_model.h5')
 except:
     def build_lstm_model(input_shape):
         model = Sequential()
